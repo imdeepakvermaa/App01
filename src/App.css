@@ -62,3 +62,14 @@ input::placeholder {
   width: 2.5rem;
 }
 
+.SearchBarDiv{
+  background-color: var(--primary-color);
+  padding: 6rem 5rem 6rem 5rem;
+}
+
+.recentsearches{
+  padding: 1rem 5rem 0rem 5rem;
+}
+.recentsearcheslist{
+  margin: 0rem 0rem 0rem 4rem;
+}

@@ -1,9 +1,9 @@
 import './App.css';
-import SmallCard from './Components/SmallCard';
+import SearchPage from './Pages/SearchPage';
 function App() {
   return (
     <div className="App">
-      
+      <SearchPage/>
     </div>
   );
 }

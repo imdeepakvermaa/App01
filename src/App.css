@@ -9,7 +9,9 @@
   --secondary-color-down: #F5F5F5; 
   --secondary-color-up: #DADCDB;
 }
-
+body{
+  background-color: var(--secondary-color-up);
+}
 .SearchBar{
   /* width: 40.5rem;
   height: 3rem;  */
@@ -64,12 +66,12 @@ input::placeholder {
 
 .SearchBarDiv{
   background-color: var(--primary-color);
-  padding: 6rem 5rem 6rem 5rem;
+  padding: 5rem 5rem 5rem 5rem;
 }
 
 .recentsearches{
   padding: 1rem 5rem 0rem 5rem;
 }
 .recentsearcheslist{
-  margin: 0rem 0rem 0rem 4rem;
+  margin: -0.5rem 0rem 0rem 4rem;
 }

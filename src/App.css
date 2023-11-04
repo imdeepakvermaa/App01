@@ -79,6 +79,7 @@ input::placeholder {
   background-color: var(--primary-color);
   padding: 7rem 5rem 7rem 5rem;
 }
+
 .HeroImg1{
   margin: 5rem 5rem 5rem 13rem;
   height: 20rem;
@@ -87,15 +88,16 @@ input::placeholder {
 .HeroPara1{
   height: 20rem;
   width: 40rem;
-  margin: -25rem 5rem 5rem 45rem;
+  margin: -25rem 5rem 5rem 50rem;
 }
 .HeroImg2{
-  margin: 0rem 5rem 5rem 60rem;
+  margin: 5rem 5rem 5rem 60rem;
   height: 20rem;
   width: 20rem;
 }
+
 .HeroPara2{
-  margin: -20rem 5rem 5rem 8rem;
+  margin: -25rem 5rem 5rem 3rem;
   height: 20rem;
   width: 40rem;
 }

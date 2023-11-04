@@ -75,3 +75,27 @@ input::placeholder {
 .recentsearcheslist{
   margin: -0.5rem 0rem 0rem 4rem;
 }
+.HomePageDiv1{
+  background-color: var(--primary-color);
+  padding: 7rem 5rem 7rem 5rem;
+}
+.HeroImg1{
+  margin: 5rem 5rem 5rem 13rem;
+  height: 20rem;
+  width: 20rem;
+}
+.HeroPara1{
+  height: 20rem;
+  width: 40rem;
+  margin: -25rem 5rem 5rem 45rem;
+}
+.HeroImg2{
+  margin: 0rem 5rem 5rem 60rem;
+  height: 20rem;
+  width: 20rem;
+}
+.HeroPara2{
+  margin: -20rem 5rem 5rem 8rem;
+  height: 20rem;
+  width: 40rem;
+}

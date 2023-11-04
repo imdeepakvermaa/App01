@@ -6,7 +6,7 @@
   --primary-color: #5851D3;
   --primary-color-down: #6760D6;
   --secondary-color: #EEEEEE;
-  --secondary-color-down: #F5F5F5;
+  --secondary-color-down: #F5F5F5; 
   --secondary-color-up: #DADCDB;
 }
 
@@ -37,6 +37,16 @@ input::placeholder {
 
 .SearchIcon{
   margin: -3.43rem 0rem 0rem 34rem;
+}
+
+.SmallCard{
+  background-color: var(--secondary-color-down);
+  padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  height: 50px;
+  width: 20rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .SearchIconButton{

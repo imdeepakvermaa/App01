@@ -75,6 +75,7 @@ input::placeholder {
 .recentsearcheslist{
   margin: -0.5rem 0rem 0rem 4rem;
 }
+
 /* HomePage */
 .HomePageDiv1{
   background-color: var(--primary-color);
@@ -100,6 +101,7 @@ input::placeholder {
   height: 20rem;
   width: 40rem;
 }
+
 
 .Logo{
   display: flex;
@@ -178,6 +180,7 @@ input::placeholder {
 .btn{
   display: flex;
   gap: 18px;
+
 }
 .RatingCard{
   background-color: #fff;

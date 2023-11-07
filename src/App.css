@@ -76,6 +76,33 @@ input::placeholder {
   margin: -0.5rem 0rem 0rem 4rem;
 }
 
+/* HomePage */
+.HomePageDiv1{
+  background-color: var(--primary-color);
+  padding: 7rem 5rem 7rem 5rem;
+}
+.HeroImg1{
+  margin: 5rem 5rem 5rem 13rem;
+  height: 20rem;
+  width: 20rem;
+}
+.HeroPara1{
+  height: 20rem;
+  width: 40rem;
+  margin: -25rem 5rem 5rem 50rem;
+}
+.HeroImg2{
+  margin: 5rem 5rem 5rem 60rem;
+  height: 20rem;
+  width: 20rem;
+}
+.HeroPara2{
+  margin: -25rem 5rem 5rem 3rem;
+  height: 20rem;
+  width: 40rem;
+}
+
+
 .Logo{
   display: flex;
   justify-content: center;
@@ -147,10 +174,194 @@ input::placeholder {
   font-size: medium;
   border: 2px solid #291fb5;
   padding-right: 10px;
-
+  background-color: #fff;
 }
 
 .btn{
   display: flex;
   gap: 18px;
+
 }
+.RatingCard{
+  background-color: #fff;
+  height: 2.5rem;
+  width: 8rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+.star {
+  display: inline-block;
+  color: #FFD700;
+
+}
+.empty-star{
+  display: inline-block;
+  color: #ccc; 
+}
+.LikeCardImg{
+  height: 2rem;
+  width: 2rem;
+  margin-left: 0.6rem;
+}
+.LikeCard{
+  background-color: #fff;
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.LikeCard:hover {
+  border: 2px solid #5851D3;
+}
+.ShareCard{
+  background-color: #fff;
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ShareCard:hover {
+  border: 2px solid #5851D3;
+}
+
+.ProductLandingImage{
+  margin: 1rem 1rem 1rem 1rem;
+  height: 20rem;  
+  width: 40rem;
+}
+.ProductLandingPageTitle{
+  background-color: #fff;
+  height: 5rem;
+  width: 35rem;
+  border-radius: 1rem;
+}
+.ProductLandingPageTitleHeading{
+  padding: 0.5rem 1rem 1rem 2rem;
+}
+.ProductLandingPageActions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+.ProductLandingPagediv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.ProductLandingPage{
+  background: var(--secondary-color);
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 0rem 0rem 0rem 0rem;
+  border-radius: 2rem;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductLandingPagediv2{
+  /* height: 12rem;
+  width: 90rem; */
+  margin: 0rem 5rem 0rem 5rem;
+}
+
+.div2Paragraph{
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.action-main{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductLandingPagediv3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0rem 0rem 2rem 0rem;
+  margin: 0rem 0rem 0rem 65rem;
+}
+
+
+
+/* Sign in and sign up  */
+.container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background-color: rgb(231, 226, 226);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 40%;
+  padding: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.form{
+  display: flex-col;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+}
+
+button {
+  background-color: #5851D3;
+  width: 100px;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+

@@ -174,7 +174,7 @@ input::placeholder {
   font-size: medium;
   border: 2px solid #291fb5;
   padding-right: 10px;
-
+  background-color: #fff;
 }
 
 .btn{
@@ -231,4 +231,70 @@ input::placeholder {
 }
 .ShareCard:hover {
   border: 2px solid #5851D3;
+}
+
+.ProductLandingImage{
+  margin: 1rem 1rem 1rem 1rem;
+  height: 20rem;  
+  width: 40rem;
+}
+.ProductLandingPageTitle{
+  background-color: #fff;
+  height: 5rem;
+  width: 35rem;
+  border-radius: 1rem;
+}
+.ProductLandingPageTitleHeading{
+  padding: 0.5rem 1rem 1rem 2rem;
+}
+.ProductLandingPageActions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+.ProductLandingPagediv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.ProductLandingPage{
+  background: var(--secondary-color);
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 0rem 0rem 0rem 0rem;
+  border-radius: 2rem;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductLandingPagediv2{
+  /* height: 12rem;
+  width: 90rem; */
+  margin: 0rem 5rem 0rem 5rem;
+}
+
+.div2Paragraph{
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.action-main{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductLandingPagediv3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0rem 0rem 2rem 0rem;
+  margin: 0rem 0rem 0rem 65rem;
 }

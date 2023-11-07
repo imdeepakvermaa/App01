@@ -1,11 +1,16 @@
 import './App.css';
 import SearchPage from './Pages/SearchPage';
-import Header from './Component/Header';
+import Header from './Components/Header';
+import ProductLandingPage from './Pages/ProductLandingPage';
+import Home from './Pages/Home';
 function App() {
   return (
     <div className="App">
       <Header/>
-      <SearchPage/>
+      {/* <Home/> */}
+      {/* <SearchPage/> */}
+      <ProductLandingPage/>
+
     </div>
   );
 }

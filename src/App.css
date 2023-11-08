@@ -306,32 +306,31 @@ input::placeholder {
   display: flex;
   justify-content: center;  
   align-items: center;
-  background-color: rgb(231, 226, 226);
+  background-color: var(--secondary-color);
   border: 1px solid #ccc;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
-  width: 40%;
-  padding: 20px;
+  width: 55%;
+  height: 60vh;
+  margin-top: 100px;
+  margin-left: 350px;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  
 }
 
 h2 {
-  margin-bottom: 20px;
   color: #333;
 }
 .form{
   display: flex-col;
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 label {
@@ -340,9 +339,9 @@ label {
 }
 
 input {
-  width: 500px;
+  width: 550px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 0.1px solid #ccc;
   border-radius: 5px;
   outline: none;
   text-align: left;

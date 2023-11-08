@@ -9,8 +9,9 @@ const SignUp = () => {
           
           <div class="form-group">
             <label for="username">Email</label>
-            <br />
+            <br/>
             <input
+            class='inputbox'
               type="text"
               id="username"
               name="username"

@@ -2,14 +2,15 @@
 
 const SignIn = () => {
   return (
-    <div class="container">
+    <div class="sign-container">
       <form class="login-form">
         <h2>Log In</h2>
-        <div className="form">
+        <div className="sign-form">
           <div class="form-group">
             <label for="username">Email</label>
             <br />
             <input
+            className="sign-input"
               type="text"
               id="username"
               name="username"
@@ -21,6 +22,7 @@ const SignIn = () => {
             <label for="password">Password</label>
             <br />
             <input
+            className="sign-input"
               type="password"
               id="password"
               name="password"

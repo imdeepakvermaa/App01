@@ -1,18 +1,18 @@
-.App{
+.App {
   width: 100%;
   height: 100%;
 }
 :root {
-  --primary-color: #5851D3;
-  --primary-color-down: #6760D6;
-  --secondary-color: #EEEEEE;
-  --secondary-color-down: #F5F5F5; 
-  --secondary-color-up: #DADCDB;
+  --primary-color: #5851d3;
+  --primary-color-down: #6760d6;
+  --secondary-color: #eeeeee;
+  --secondary-color-down: #f5f5f5;
+  --secondary-color-up: #dadcdb;
 }
-body{
+body {
   background-color: var(--secondary-color-up);
 }
-.SearchBar{
+.SearchBar {
   /* width: 40.5rem;
   height: 3rem;  */
   text-align: center;
@@ -29,7 +29,7 @@ input::placeholder {
   /* You can use other CSS properties to further adjust the position and appearance of the placeholder text */
 }
 
-.SearchBarInput{
+.SearchBarInput {
   width: 40rem;
   height: 3.5rem;
   font-size: 1.5rem;
@@ -37,11 +37,11 @@ input::placeholder {
   border: none;
 }
 
-.SearchIcon{
+.SearchIcon {
   margin: -3.43rem 0rem 0rem 34rem;
 }
 
-.SmallCard{
+.SmallCard {
   background-color: var(--secondary-color-down);
   padding: 0.1rem 0.5rem 0.5rem 0.5rem;
   margin: 1rem 1rem 1rem 1rem;
@@ -51,7 +51,7 @@ input::placeholder {
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
-.SearchIconButton{
+.SearchIconButton {
   margin: 0rem 0rem 0rem 0rem;
   height: 3.5rem;
   width: 3.5rem;
@@ -59,65 +59,61 @@ input::placeholder {
   border: none;
 }
 
-.SearchIconImg{
+.SearchIconImg {
   height: 2.5rem;
   width: 2.5rem;
 }
 
-.SearchBarDiv{
+.SearchBarDiv {
   background-color: var(--primary-color);
   padding: 5rem 5rem 5rem 5rem;
 }
 
-.recentsearches{
+.recentsearches {
   padding: 1rem 5rem 0rem 5rem;
 }
-.recentsearcheslist{
+.recentsearcheslist {
   margin: -0.5rem 0rem 0rem 4rem;
 }
 
 /* HomePage */
-.HomePageDiv1{
+.HomePageDiv1 {
   background-color: var(--primary-color);
   padding: 7rem 5rem 7rem 5rem;
 }
-.HeroImg1{
+.HeroImg1 {
   margin: 5rem 5rem 5rem 13rem;
   height: 20rem;
   width: 20rem;
 }
-.HeroPara1{
+.HeroPara1 {
   height: 20rem;
   width: 40rem;
   margin: -25rem 5rem 5rem 50rem;
 }
-.HeroImg2{
+.HeroImg2 {
   margin: 5rem 5rem 5rem 60rem;
   height: 20rem;
   width: 20rem;
 }
-.HeroPara2{
+.HeroPara2 {
   margin: -25rem 5rem 5rem 3rem;
   height: 20rem;
   width: 40rem;
 }
 
-
-.Logo{
+.Logo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
-
-.Logo img{
+.Logo img {
   height: 45px;
-
 }
 
-.Header{
+.Header {
   height: 70px;
   display: flex;
   padding-left: 40px;
@@ -126,15 +122,13 @@ input::placeholder {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-
-
 }
 
-.Second-part-nav-bar{
+.Second-part-nav-bar {
   display: flex;
 }
 
-.Elements{
+.Elements {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,28 +138,23 @@ input::placeholder {
   font-weight: 600;
   font-size: large;
 }
-.Elements :hover{
+.Elements :hover {
   cursor: pointer;
 }
 
-
 /* Sign in / up button  */
-.SearchButton{
+.SearchButton {
   height: 35px;
   width: 90px;
-  background-color: #5851D3;
+  background-color: #5851d3;
   color: white;
   font-weight: 700;
   border-radius: 50px;
   font-size: medium;
-  border:none;
-
-
-
-
+  border: none;
 }
 
-.SignButton{
+.SignButton {
   height: 35px;
   width: 90px;
   color: #291fb5;
@@ -177,12 +166,11 @@ input::placeholder {
   background-color: #fff;
 }
 
-.btn{
+.btn {
   display: flex;
   gap: 18px;
-
 }
-.RatingCard{
+.RatingCard {
   background-color: #fff;
   height: 2.5rem;
   width: 8rem;
@@ -192,23 +180,21 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   gap: 5px;
-
 }
 .star {
   display: inline-block;
-  color: #FFD700;
-
+  color: #ffd700;
 }
-.empty-star{
+.empty-star {
   display: inline-block;
-  color: #ccc; 
+  color: #ccc;
 }
-.LikeCardImg{
+.LikeCardImg {
   height: 2rem;
   width: 2rem;
   margin-left: 0.6rem;
 }
-.LikeCard{
+.LikeCard {
   background-color: #fff;
   width: 6rem;
   height: 2.5rem;
@@ -218,9 +204,9 @@ input::placeholder {
   gap: 0.5rem;
 }
 .LikeCard:hover {
-  border: 2px solid #5851D3;
+  border: 2px solid #5851d3;
 }
-.ShareCard{
+.ShareCard {
   background-color: #fff;
   width: 6rem;
   height: 2.5rem;
@@ -230,57 +216,57 @@ input::placeholder {
   gap: 0.5rem;
 }
 .ShareCard:hover {
-  border: 2px solid #5851D3;
+  border: 2px solid #5851d3;
 }
 
-.ProductLandingImage{
+.ProductLandingImage {
   margin: 1rem 1rem 1rem 1rem;
-  height: 20rem;  
+  height: 20rem;
   width: 40rem;
 }
-.ProductLandingPageTitle{
+.ProductLandingPageTitle {
   background-color: #fff;
   height: 5rem;
   width: 35rem;
   border-radius: 1rem;
 }
-.ProductLandingPageTitleHeading{
+.ProductLandingPageTitleHeading {
   padding: 0.5rem 1rem 1rem 2rem;
 }
-.ProductLandingPageActions{
+.ProductLandingPageActions {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   margin: 1rem 0rem 0rem 0rem;
 }
-.ProductLandingPagediv1{
+.ProductLandingPagediv1 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-.ProductLandingPage{
+.ProductLandingPage {
   background: var(--secondary-color);
   margin: 2rem 2rem 2rem 2rem;
   padding: 0rem 0rem 0rem 0rem;
   border-radius: 2rem;
-  display:grid;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
 
-.ProductLandingPagediv2{
+.ProductLandingPagediv2 {
   /* height: 12rem;
   width: 90rem; */
   margin: 0rem 5rem 0rem 5rem;
 }
 
-.div2Paragraph{
+.div2Paragraph {
   padding: 2rem 0rem 0rem 0rem;
 }
 
-.action-main{
+.action-main {
   background-color: #fff;
   border-radius: 0.5rem;
   height: 2rem;
@@ -290,7 +276,7 @@ input::placeholder {
   align-items: center;
 }
 
-.ProductLandingPagediv3{
+.ProductLandingPagediv3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,12 +285,10 @@ input::placeholder {
   margin: 0rem 0rem 0rem 65rem;
 }
 
-
-
 /* Sign in and sign up  */
-.container {
+.sign-container {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   background-color: var(--secondary-color);
   border: 1px solid #ccc;
@@ -320,25 +304,24 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 h2 {
   color: #333;
 }
-.form{
+.sign-form {
   display: flex-col;
 }
 .form-group {
   margin-bottom: 20px;
 }
 
-label {
+.form-group > label{
   font-weight: bold;
   color: #333;
 }
 
-input {
+.sign-input {
   width: 550px;
   padding: 10px;
   border: 0.1px solid #ccc;
@@ -348,7 +331,7 @@ input {
 }
 
 button {
-  background-color: #5851D3;
+  background-color: #5851d3;
   width: 100px;
   color: #fff;
   padding: 10px;
@@ -361,6 +344,3 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-
-
-

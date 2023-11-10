@@ -2,16 +2,17 @@
 
 const SignUp = () => {
   return (
-    <div class="container">
-      <form class="login-form">
+    <div className="sign-container">
+      <form className="login-form">
         <h2>SignUp</h2>
-        <div className="form">
+        <div className="sign-form">
           
-          <div class="form-group">
+          <div className="form-group">
             <label for="username">Email</label>
             <br/>
             <input
-            class='inputbox'
+            className="sign-input"
+            
               type="text"
               id="username"
               name="username"
@@ -20,10 +21,11 @@ const SignUp = () => {
             />
           </div>
           
-          <div class="form-group">
+          <div className="form-group">
             <label for="password">Password</label>
             <br />
             <input
+            className="sign-input"
               type="password"
               id="password"
               name="password"
@@ -31,10 +33,11 @@ const SignUp = () => {
               required
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label for="password">Confirm Password</label>
             <br />
             <input
+            className="sign-input"
               type="password"
               id="password"
               name="password"

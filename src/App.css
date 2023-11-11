@@ -286,6 +286,7 @@ input::placeholder {
 }
 
 /* Sign in and sign up  */
+
 .sign-container {
   display: flex;
   justify-content: center;
@@ -343,4 +344,46 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+
+
+/* Result box container */
+
+.result-box-texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.result-box-container{
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: medium solid black;
+  background-color: #EEEEEE;
+  border-radius: 15px;
+
+}
+.result-box-image{
+  width: 420px;
+}
+.result-box-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 12px;
+  font-weight: 500;
+
+}
+
+.result-box-p{
+  font-size: 14px;
+  font-weight: 500;
+  /* font-weight: bold; */
 }

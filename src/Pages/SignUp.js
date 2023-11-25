@@ -47,6 +47,12 @@ const SignUp = () => {
           </div>
         </div>
         <button type="submit">Signup</button>
+        <div className="googlesignin">
+          <p>or</p>
+          <button className="googlesigninbtn">
+            Sign In using Google
+          </button>
+        </div>
       </form>
     </div>
   );

@@ -479,3 +479,345 @@ margin-left: 30px;
   display: flex;
 }
 
+/* Dashboard */
+.dashboard-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-sidebar {
+  width: 30%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #5851d3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.dashboard-main {
+  width: 70%;
+  padding: 20px;
+
+}
+
+.invite-section {
+  margin-top: 20px;
+}
+
+.invite-button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.dashboard-button{
+  width: 130px;
+  margin-top: 20px;
+}
+
+.dashboard-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.input-invite{
+  height: 1200px;
+}
+
+.dashboard-invite{
+  display: flex;
+  gap: 10px;
+  
+}
+
+
+/* Add Expenses */
+
+
+
+.add-expense-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+
+.add-expense-container h2 {
+  color: #3498db;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.expense-amount {
+  display: flex;
+  align-items: center;
+}
+
+.expense-amount span {
+  margin-right: 5px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #888;
+}
+
+.add-image-notes {
+  margin-top: 10px;
+}
+
+.add-image-notes-btn {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-image-notes-btn:hover {
+  background-color: #2980b9;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-btn,
+.save-btn {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.cancel-btn {
+  background-color: #ecf0f1;
+  color: #555;
+}
+
+.save-btn {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background-color: #219651;
+}
+
+
+
+/* Group Creation */
+
+.create-group-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 180px;
+}
+
+.create-group-container h2 {
+  color: #3498db;
+}
+
+label {
+  margin-top: 10px;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.member-input {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.remove-btn-grp{
+  margin-bottom: 12px;
+
+
+}
+.grpname-group{
+  display: flex;
+  gap: 20px;
+}
+
+.members-grp{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button.create-group-btn {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+button.create-group-btn:hover {
+  background-color: #219651;
+}
+
+
+.total-grps  {
+  text-align: center;
+}
+
+.total-grps-detail{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(83, 77, 194);
+  margin-top: 70px;
+  margin-left: 330px;
+  border-radius: 40px;
+}
+.group-details{
+  color: white;
+
+
+}
+.trip {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  color: white;
+}
+.color-grp-total{
+  color: #fff;
+}
+
+.open-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.open-button:hover {
+  background-color: #45a049;
+}
+
+
+
+/* tripsDetails */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.app {
+  text-align: center;
+}
+
+.trip-details {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.expenses-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.expenses-list h2 {
+  margin-bottom: 10px;
+}
+
+.expenses-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expenses-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.action-buttons button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-buttons button:hover {
+  background-color: #45a049;
+}
